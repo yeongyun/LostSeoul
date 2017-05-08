@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">서울시 대중교통 분실물</string>
+    <string name="action_settings">Settings</string>
+    <string name="lost_name">[%1$s]%2$s</string>
+    <string name="lost_id">(%1$s)</string>
+    <string name="lost_position">습득위치: %1$s, (%2$s)</string>
+    <string name="lost_take">수령가능 장소: %1$s, (%2$s)</string>
+    <string name="lost_status">분실물상태: %1$s</string>
+
+    <string name="b1">버스</string>
+    <string name="b2">마을버스</string>
+    <string name="t1">법인택시</string>
+    <string name="t2">개인택시</string>
+    <string name="s1">지하철(1~4호선)</string>
+    <string name="s2">지하철(5~8호선)</string>
+    <string name="s3">코레일</string>
+    <string name="s4">지하철(9호선)</string>
+
+    <array name="filter">
+        <item>@string/b1</item>
+        <item>@string/b2</item>
+        <item>@string/t1</item>
+        <item>@string/t2</item>
+        <item>@string/s1</item>
+        <item>@string/s2</item>
+        <item>@string/s3</item>
+        <item>@string/s4</item>
+    </array>
+</resources>
