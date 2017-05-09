@@ -6,9 +6,11 @@ import com.y.md.lostseoul.common.Constants;
 
 /**
  * Created by prompt32 on 2017-05-02.
+ *
  */
 
 public class LostProperty implements Constants {
+
     private long id = 0;
     private String name = "";
     private String date = "";

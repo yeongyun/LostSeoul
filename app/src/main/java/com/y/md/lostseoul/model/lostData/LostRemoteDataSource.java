@@ -39,7 +39,7 @@ public class LostRemoteDataSource implements LostDataSource {
             mOkHttpHelper = new OkHttpHelper();
         }
 
-        mOkHttpHelper.getLostList(type, new Callback() {
+        mOkHttpHelper.getLostList(type, 1, new Callback() {
             @Override
             public void onFailure(Call call, IOException e) {
                 callback.onDataNotAvailable();
